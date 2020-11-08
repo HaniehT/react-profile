@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+html,
+body {
+  background-color: red;
+}
+
+.mainContainer {
+  display: grid;
+  grid-template-rows: 20% 70% 10%;
+
+
+}
+
+
+.Header {
+  background-color: green;
+  font-size: bold;
+}
+
+
+.Footer {
+  background-color: green;
+
+}
