@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import "./Navbar.css"
-import Footer from './Footer';
-import Main from './Main';
+import './Navbar.css';
+
+import Footer from '../Footer/Footer';
+import Main from '../Main/Main';
+
 class Navbar extends Component {
     state = {
         menu: [

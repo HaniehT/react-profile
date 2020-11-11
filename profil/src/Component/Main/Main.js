@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import Navbar from './Navbar.js';
 import "./Main.css";
+import ContactForm from '../ContactForm/ContactForm.js';
+
+
 class Main extends Component {
 
     constructor(props) {
@@ -21,16 +23,8 @@ class Main extends Component {
                     I've got my mom's old phone, but I can't afford a pricey wireless plan, so I got a free phone number from TextNow and I use the app to talk to my friends for free!
                     I've got my mom's old phone, but I can't afford a pricey wireless plan, so I got a free phone number from TextNow and I use the app to talk to my friends for free!
                 </p>
-                <div className="formComponent">
-                    <form>
-                        <label>
-                            Nom :
-                            <input type="text" name="name" />
-                        </label>
-                        <input type="submit" value="Envoyer" />
 
-                    </form>
-                </div>
+                <ContactForm></ContactForm>
 
             </div>
 
